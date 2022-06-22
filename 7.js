@@ -36,4 +36,5 @@ function prefix_to_infix(str) {
 
 let exp = "*-AB/CD-/E";
 
-console.log(`Infix of prefix expression : ${exp} is`, prefix_to_infix(exp));
+console.log(`given prefix expression : ${exp}`);
+console.log(`infix expression of it : ${prefix_to_infix(exp)}`);
