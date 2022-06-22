@@ -34,10 +34,10 @@ function smallestinStack(stack) {
   return smallest;
 }
 
-arr = [10, 30, 20, 28, 9, 12];
+arr = [10, 3, 20, 28, 9, 12];
 let s = new Stack();
 
-while (arr.length) {
+while (arr.length != 0) {
   s.push(arr.shift());
 }
 
